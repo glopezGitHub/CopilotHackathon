@@ -1,4 +1,4 @@
-# Activate GitHub Copilot using Nodejs and .NET Core
+# GitHub Copilot Hackaton using Nodejs, .NET and Java 
 
 Demo project for running labs to evaluate Copilot viability
 
@@ -10,24 +10,23 @@ Demo project for running labs to evaluate Copilot viability
 
 ## Goal
 
-The goal of a GitHub Copilot Activate is to learn how to use it, using an exercise that consist of building a web server using Nodejs with different functionalities and a .NET Web API.
+The goal of a GitHub Copilot Hackaton is to learn how to use it, using an exercise that consist of building a web server using Nodejs with different functionalities, a .NET Web API or a Java Rest API (either Spring Boot or Quarkus).
 
- Copilot is an AI-powered code assistant that helps developers write better code faster. It uses machine learning models trained on billions of lines of code to suggest whole lines or entire functions based on the context of what you’re working on. By using Copilot, you can learn how to write better code and improve your productivity.
+GitHub Copilot is an AI-powered code assistant that helps developers write better code faster. It uses machine learning models trained on billions of lines of code to suggest whole lines or entire functions based on the context of what you’re working on. By using Copilot, you can learn how to write better code and improve your productivity.
 
 Remember:
 
 - As you type GitHub Copilot will make suggestions, you can accept them by pressing Tab.
 - If nothing shows up after Copilot write some lines , press enter and wait a couple of seconds.
-- On Windows or Linux, press Ctrl + Enter, then click Open GitHub Copilot.
-
+- On Windows, MacOS or Linux, press Ctrl + Enter, then click Open GitHub Copilot.
 
 ## Pre-requisites
 
-**CoPilot access**
+**GitHub Copilot access**
 
 A 60 day trial can be requested here: https://github.com/github-copilot/signup
 
-## Work with Github Codespaces
+## Work with GitHub Codespaces
 
 Environment is already configured to work with Github Codespaces, you can find the configuration files in the .devcontainer folder.
 
@@ -39,29 +38,35 @@ To start programming just start a new codespace and you are ready to go, don't n
 
 https://code.visualstudio.com/
 
-**Install Node and npm**
- https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+**Install Docker**
 
+https://docs.docker.com/engine/install/
 
-**Install mocha**
+**For Nodejs**
 
-run:
+- [Install Node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- Install mocha: 
+
+Run:
 
 ``` bash
  npm install --global mocha
  npm install axios
 ```
 
-**Install Docker**
+**For .NET**
 
-https://docs.docker.com/engine/install/
+[Install .Net](https://dotnet.microsoft.com/download)
 
-**Install .NET Core**
+**For Java**
 
-https://dotnet.microsoft.com/download
+- [Install Java](https://learn.microsoft.com/en-us/java/openjdk/install)
+- [Install Maven](https://maven.apache.org/install.html)
 
 
 ## Instructions
 
 - [Node Server](./exercisefiles/node/README.md)
 - [.NET Web API](./exercisefiles/dotnet/README.md)
+- [Java Spring Boot](./exercisefiles/springboot/README.md)
+- [Java Quarkus](./exercisefiles/quarkus/README.md)
