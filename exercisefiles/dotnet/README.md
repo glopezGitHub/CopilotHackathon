@@ -47,37 +47,32 @@ Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration:
 
 - **/DaysBetweenDates**: 
 
-Calculate days between two dates
-
-receive by query string 2 parameters date1 and date 2, and calculate the days between those two dates.
+* calculate days between two dates
+* receive by query string two parameters `date1` and `date2`, and calculate the days between those two dates.
 
 - **/validatephonenumber**: 
 
-Receive by querystring a parameter called phoneNumber 
-validate phoneNumber with Spanish format, for example +34666777888
-if phoneNumber is valid return true
+* receive by querystring a parameter called phoneNumber
+* validate phoneNumber with Spanish format, for example `+34666777888`
+* if phoneNumber is valid return true
 
 - **/validatespanishdni**:
 
-Receive by querystring a parameter called dni
-calculate DNI letter
-if DNI is valid return "valid"
-if DNI is not valid return "invalid"
+* receive by querystring a parameter called dni
+* calculate DNI letter
+* if DNI is valid return "valid"
+* if DNI is not valid return "invalid"
 
-We will create automated tests to check that the functionality is correctly implemented.
+We will create automated tests to check that the functionality is correctly implemented.  
 When the development is completed, we will build a container using Docker
 
 - **/returncolorcode**:
 
-Receive by querystring a parameter called color
-
-read colors.json file and return the rgba field
-
-get color var from querystring
-
-iterate for each color in colors.json to find the color
-
-return the code.hex field
+* receive by querystring a parameter called color
+* read colors.json file and return the rgba field
+* get color var from querystring
+* iterate for each color in colors.json to find the color
+* return the code.hex field
 
 - **/tellmeajoke**:
 
@@ -190,7 +185,7 @@ app.MapGet("/listfiles", () =>
 });
 ```
 
-THen use the "BRUSHES" section and press the "Debug" button.
+Then use the "BRUSHES" section and press the "Debug" button.
 
 -- **Clean**
 
@@ -211,7 +206,7 @@ TBD
 
 -- **Document**
 
-Select some line (e.g. a method or the beggining of the if clause)
+Select some line (e.g. a method or the beginning of the if clause)
 
     `app.MapGet("/parseurl", (string url) =>`
 
